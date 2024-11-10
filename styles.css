@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f8f6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resume {
+    display: flex;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    width: 40%;
+    padding-right: 20px;
+    border-right: 1px solid #d3cfcf;
+    color: #a5896a;
+}
+
+.right-section {
+    width: 60%;
+    padding-left: 20px;
+    color: #a5896a;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.small-image {
+    width: 150px;
+    height: auto;
+}
+
+
+h2 {
+    font-size: 28px;
+    color: #704f39;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.position {
+    font-size: 16px;
+    font-weight: bold;
+    color: #704f39;
+    background-color: #efe7e0;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 18px;
+    color: #704f39;
+    font-weight: bold;
+    background-color: #efe7e0;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section p, .section ul li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.contact p, .skills p, .languages p {
+    margin-bottom: 8px;
+}
